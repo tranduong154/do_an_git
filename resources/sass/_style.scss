@@ -1,0 +1,41 @@
+.orders {
+    .item_detail {
+        border: 0.5px solid #454d55;
+        cursor: pointer;
+        &:hover {
+            background-color: green;
+        }
+    }
+
+    .active__item {
+        background-color: green;
+    }
+
+    .disabled__item {
+        background-color: #454d55;
+    }
+
+    #content-tab {
+        .table-dark {
+            // .water {
+                h4 {
+                    color: #fff;
+                    font-weight: bolder;
+                }
+                .add {
+                    background-color: #03a9f4;
+                    padding: 0 8px;
+                    color: red;
+                }
+                .qty-item {
+                    width: 100px;
+                }
+                .sub {
+                    background-color: #03a9f4;
+                    padding: 0 8px;
+                    color: red;
+                }
+            // }
+        }
+    }
+}
