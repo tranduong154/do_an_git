@@ -13,7 +13,7 @@
                 <div class="col-lg-8">
                   <div class="intro-body">
                     <h1 class="intro-title mb-4 ">
-                      <span class="color-b">2023</span> Giải
+                      <span class="color-b">2024</span> Giải
                       <br> GIAO LƯU
                     </h1>
                     <p class="intro-subtitle intro-price">
@@ -55,7 +55,7 @@
                 <div class="col-lg-8">
                   <div class="intro-body">
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">2023 </span> GIẢI 
+                      <span class="color-b">2024 </span> GIẢI 
                       <br> GIAO LƯU CÔNG TY
                     </h1>
                     <p class="intro-subtitle intro-price">
@@ -295,7 +295,7 @@
           <div class="col-md-12">
             <div class="title-wrap d-flex justify-content-between">
               <div class="title-box">
-                <h2 class="title-a">Các giải đấu tại sân Đa Phước</h2>
+                <h2 class="title-a">Các giải đấu tại sân Duy Tân</h2>
               </div>
               <div class="title-link">
               </div>
@@ -314,10 +314,10 @@
                 <div class="card-overlay">
                   <div class="card-header-b">
                     <div class="card-category-b">
-                      <a href="#" class="category-b">Đa Phước</a>
+                      <a href="#" class="category-b">Duy Tân</a>
                     </div>
                     <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
+                      <span class="date-b">18 Sep. 2014</span>
                     </div>
                   </div>
                 </div>
@@ -332,10 +332,10 @@
                 <div class="card-overlay">
                   <div class="card-header-b">
                     <div class="card-category-b">
-                      <a href="#" class="category-b">Đa Phước</a>
+                      <a href="#" class="category-b">Duy Tân</a>
                     </div>
                     <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
+                      <span class="date-b">18 Sep. 2024</span>
                     </div>
                   </div>
                 </div>
@@ -350,10 +350,10 @@
                 <div class="card-overlay">
                   <div class="card-header-b">
                     <div class="card-category-b">
-                      <a href="#" class="category-b">Đa Phước</a>
+                      <a href="#" class="category-b">Duy Tân</a>
                     </div>
                     <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
+                      <span class="date-b">18 Sep. 2024</span>
                     </div>
                   </div>
                 </div>
@@ -368,10 +368,10 @@
                 <div class="card-overlay">
                   <div class="card-header-b">
                     <div class="card-category-b">
-                      <a href="#" class="category-b">Đa Phước</a>
+                      <a href="#" class="category-b">Duy Tân</a>
                     </div>
                     <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
+                      <span class="date-b">18 Sep. 2024</span>
                     </div>
                   </div>
                 </div>
@@ -415,12 +415,12 @@
                     </div>
                     <div class="testimonials-content">
                       <p class="testimonial-text">
-                        Giải đấu tranh cúp Đa Phước lần thứ 1 năm 2022 tại sân bóng đá Đa Phước - Đà Nẵng.
+                        Giải đấu tranh cúp Đa Phước lần thứ 1 năm 2024 tại sân bóng đá Duy Tân - Đà Nẵng.
                       </p>
                     </div>
                     <div class="testimonial-author-box">
                       <img src="assets/img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
-                      <h5 class="testimonial-author">9/2022</h5>
+                      <h5 class="testimonial-author">9/2024</h5>
                     </div>
                   </div>
                 </div>
@@ -441,12 +441,12 @@
                     </div>
                     <div class="testimonials-content">
                       <p class="testimonial-text">
-                        Giải đấu tranh cúp Đa Phước lần thứ 2 năm 2021 tại sân bóng đá Đa Phước - Đà Nẵng.
+                        Giải đấu tranh cúp Duy Tân lần thứ 2 năm 2021 tại sân bóng đá Duy Tân - Đà Nẵng.
                       </p>
                     </div>
                     <div class="testimonial-author-box">
                       <img src="assets/img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
-                      <h5 class="testimonial-author">9/2021</h5>
+                      <h5 class="testimonial-author">9/2024</h5>
                     </div>
                   </div>
                 </div>

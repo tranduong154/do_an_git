@@ -10,7 +10,7 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-8">
                             <div class="title-single-box">
-                                <h1 class="title-single">Sân Bóng Đá Đa Phước - Đà Nẵng</h1>
+                                <h1 class="title-single">Sân Bóng Đá Duy Tân - Đà Nẵng</h1>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-4">
@@ -40,7 +40,7 @@
                             <div class="sinse-box">
                                 <h3 class="sinse-title">Khai mạc giải đấu
                                     <span></span>
-                                    <br> HYUNDAI CUP 2023
+                                    <br> HYUNDAI CUP 2024
                                 </h3>
                             </div>
                         </div>
@@ -56,20 +56,20 @@
                                 </div>
                                 <div class="col-md-6 col-lg-5 section-md-t3">
                                     <div class="title-box-d">
-                                        <h6 class="title-d">Sân bóng đá Đa Phước là 1 trong những sân bóng cỏ nhân
+                                        <h6 class="title-d">Sân bóng đá Duy Tân là 1 trong những sân bóng cỏ nhân
                                             tạo có mặt cỏ tốt và chất lượng nhất ở Đà Nẵng.
                                         </h6>
                                     </div>
                                     <p class="color-text-a">
-                                        Sân bóng Đa Phước bao gồm: <br>
+                                        Sân bóng Duy Tân bao gồm: <br>
                                         ✅Có 6 cụm sân 5️⃣và 2 sân 7️⃣ <br>
                                         ✅Tiện ích <br>
                                         🔹Có chỗ đậu xe <br>
                                         🔹Banh sử dụng miễn phí <br>
                                         🔹Nước uống miễn phí <br>
-                                        🔹Nơi đây diễn ra các trận đấu do sân bóng đá Đa Phước tổ chức <br>
+                                        🔹Nơi đây diễn ra các trận đấu do sân bóng đá Duy Tân tổ chức <br>
                                         🔹Và nhiều tiện ích khác <br>
-                                        Địa chỉ: Khu Đô Thị Đa Phước - Đà Nẵng.
+                                        Địa chỉ: Số 7 Duy Tân, Hải Châu, Đà Nẵng, phía trong Quân khu 5.
                                     </p>
                                 </div>
                             </div>
@@ -80,8 +80,7 @@
                                 </div>
                                 <div class="col-md-6 col-lg-4">
                                     <div class="title-box-d" style="margin-top: -80px;">
-                                        <h6 class="title-d">Các qui định của sân bóng đá Đa Phước.</h6>
-
+                                        <h6 class="title-d">Các qui định của sân bóng đá Duy Tân.</h6>
                                     </div>
                                 </div>
                                 <div class="col-lg-2  d-none d-lg-block position-relative">

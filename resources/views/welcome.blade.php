@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Quản lý sân bóng đá Đa Phước</title>
+        <title>Quản lý sân bóng đá Duy Tân</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Quản Lý sân bóng đá Đa Phước
+                    Quản Lý sân bóng đá Duy Tân
                 </div>
 
                 <div class="links">

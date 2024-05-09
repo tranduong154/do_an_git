@@ -6,7 +6,7 @@
       <span></span>
       <span></span>
     </button>
-    <a class="navbar-brand text-brand" href="index.html">SÂN BÓNG ĐÁ <span class="color-b">ĐA PHƯỚC</span></a>
+    <a class="navbar-brand text-brand" href="{{ route('frontend.index') }}">SÂN BÓNG ĐÁ <span class="color-b">Duy Tân</span></a>
 
     <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
       <ul class="navbar-nav">

@@ -12,8 +12,7 @@
                     <div class="col-md-12 col-lg-8">
                         <div class="title-single-box">
                             <h1 class="title-single">Địa chỉ cụ thể</h1>
-                            <span class="color-text-a">Ông Ích Khiêm, Khu đô thị Đa Phước, Hải Châu, Đà Nẵng, Việt
-                                Nam</span>
+                            <span class="color-text-a"> Số 7 Duy Tân, Hải Châu, Đà Nẵng, phía trong Quân khu 5.</span>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4">
@@ -39,9 +38,7 @@
                     <div class="col-sm-12">
                         <div class="contact-map box">
                             <div id="map" class="contact-map">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.799478028347!2d108.20244131485852!3d16.075892088876838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142184f9d0957ef%3A0xef353f95a192dad9!2zU8OibiBiw7NuZyDEkcOhIG1pbmkgxJBhIFBoxrDhu5tj!5e0!3m2!1svi!2s!4v1637661853565!5m2!1svi!2s"
-                                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.3515225956116!2d108.21391627417925!3d16.047238340028187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142190a6f88264b%3A0x432644d66848d79e!2zU8OibiBiw7NuZyDEkcOhIER1eSBUw6Ju!5e0!3m2!1svi!2s!4v1715185340074!5m2!1svi!2s" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -95,7 +92,7 @@
                                         </div>
                                         <div class="icon-box-content">
                                             <p class="mb-1">Email.
-                                                <span class="color-a">daphuoc@gmail.com</span>
+                                                <span class="color-a">duytan@gmail.com</span>
                                             </p>
                                             <p class="mb-1">Phone.
                                                 <span class="color-a">+84 905 333333</span>
@@ -113,7 +110,7 @@
                                         </div>
                                         <div class="icon-box-content">
                                             <p class="mb-1">
-                                                Ông Ích Khiêm, Khu đô thị Đa Phước, Hải Châu, Đà Nẵng
+                                                Số 7 Duy Tân, Hải Châu, Đà Nẵng, phía trong Quân khu 5.
                                                 <br>Việt Nam
                                             </p>
                                         </div>

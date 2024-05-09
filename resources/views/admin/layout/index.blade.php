@@ -11,7 +11,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('admin/assets/images/favicon.png') }}">
-    <title>@yield('title') - Quản lý sân bóng đá Đa Phước</title>
+    <title>@yield('title') - Quản lý sân bóng đá Duy Tân</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('admin/assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Custom CSS -->

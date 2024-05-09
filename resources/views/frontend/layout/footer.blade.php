@@ -4,11 +4,11 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">Sân bóng đá Đa Phước</h3>
+              <h3 class="w-title-a text-brand">Sân bóng đá Duy Tân</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                Ông Ích Khiêm, Khu đô thị Đa Phước, Hải Châu, Đà Nẵng 550000, Việt Nam
+                Số 7 Duy Tân, Hải Châu, Đà Nẵng, phía trong Quân khu 5
               </p>
             </div>
             <div class="w-footer-a">
@@ -17,7 +17,7 @@
                   <span class="color-text-a">Phone: </span> +84 905 333333
                 </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email: </span> daphuoc@gmail.com
+                  <span class="color-text-a">Email: </span> duytan@gmail.com
                 </li>
               </ul>
             </div>
@@ -116,7 +116,7 @@
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
           -->
-            Sân bóng đá <a href="https://bootstrapmade.com/">Đa Phước</a>
+            Sân bóng đá <a href="https://bootstrapmade.com/">Duy Tân</a>
           </div>
         </div>
       </div>
