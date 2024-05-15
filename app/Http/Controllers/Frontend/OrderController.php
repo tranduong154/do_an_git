@@ -65,10 +65,12 @@ class OrderController extends Controller
         $order = session()->get('order');
         foreach($chiTiet as $key => $val) {
             $priceTime = PriceTime::where('khung_gio', FootballPitch::LIST_TIME_ORDER[$key])->first(); 
-            $priceService = Service::where('ma_loai_dv', FootballPitch::LIST_SERVICE_ORDER[$val['water_name']])->first();
-            // dd($priceService);   
+            $service = Service::where('ma_loai_dv', FootballPitch::LIST_SERVICE_ORDER[$val['water_name']])->first();
+            if ($service->don_vi < (int) $val['water_qty']) {
+                return redirect()->route('frontend.order')->withErrors('Số lượng nước uống bạn chọn vượt quá trong kho!');
+            }
             if($val['water_name'] == "1" || $val['water_name'] == "2" || $val['water_name'] == "3" || $val['water_name'] == "4" || $val['water_name'] == "5") {
-                $giaTien =  $priceTime->gia_tien + ($priceService->gia_tien *  $val['water_qty']);
+                $giaTien =  $priceTime->gia_tien + ($service->gia_tien *  $val['water_qty']);
             }
            
             $order[$key] = [
@@ -78,7 +80,7 @@ class OrderController extends Controller
                 'khung_gio' => $val['khung_gio'],
                 'gia_san' => number_format($priceTime->gia_tien),
                 'ma_loai_dv' => $val['water_name'],
-                'gia_nuoc' =>number_format($priceService->gia_tien),
+                'gia_nuoc' =>number_format($service->gia_tien),
                 'so_luong_dv' => $val['water_qty'],
                 'ngay_su_dung' => $request->ngay_su_dung,
                 'gia_tien' => $giaTien,

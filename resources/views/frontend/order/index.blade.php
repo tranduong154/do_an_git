@@ -280,6 +280,7 @@ use App\Models\FootballPitch;
                         val = $(`.timeText_${putPitchDetail.khung_gio}`).val();
                         if (putPitchDetail.khung_gio == val) {
                             $(`.a_${val}`).addClass("disabled__item");
+                            $(`.a_${val}`).css("background", 'red');
                             $(`.status_${ putPitchDetail.khung_gio }`).html(
                                 'Hết chỗ');
                         }

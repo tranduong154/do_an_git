@@ -250,11 +250,14 @@ class PutPitchController extends Controller
     {
         $putPitchDetail = PutPitchDetail::find($id); 
         $putPitch = PutPitch::find($id);
+        $service = Service::where('ma_loai_dv', $putPitchDetail->ma_loai_dv)->first();
+        $tongDonVi = $service->don_vi + (int) $putPitchDetail->so_luong_dv;
+        $service->update(['don_vi' => $tongDonVi]);
+
         if($putPitchDetail->delete() && $putPitch->delete())
         {
             return redirect()->route('admin.putPitch.index')->with('success',('Xóa thông tin đặt sân thành công!'));
-        }else{
-            return redirect()->route('admin.putPitch.index')->withErrors('Xóa thông tin đặt sân thất bại!');
         }
+        return redirect()->route('admin.putPitch.index')->withErrors('Xóa thông tin đặt sân thất bại!');
     }
 }

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\FootballPitch;
 use App\Models\PutPitchDetail;
 use App\Models\PutPitch;
+use App\Models\Service;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -146,6 +147,16 @@ class CheckoutController extends Controller
                     'sdt_nguoi_dat' => Auth::user()->sdt,
                     'ma_trang_thai' => 2
                 ]);
+
+                $service = Service::where('ma_loai_dv', 
+                    FootballPitch::LIST_SERVICE_ORDER[$order['ma_loai_dv']])
+                    ->first();
+                if ($service->don_vi < (int) $order['so_luong_dv']) {
+                    return redirect()->route('frontend.checkout.index')->withErrors('Số lượng nước uống bạn chọn vượt quá trong kho!');
+                }
+                $tongDonVi = $service->don_vi - (int) $order['so_luong_dv'];
+
+                $service->update(['don_vi' => $tongDonVi]);
             }
             $orders = session()->forget('order');
         } 
@@ -247,15 +258,18 @@ class CheckoutController extends Controller
      */
     public function destroy($id)
     {
-        // dd($id);
-        $putPitchDetail = PutPitchDetail::find($id); 
+        $putPitchDetail = PutPitchDetail::find($id);
         $putPitch = PutPitch::find($id); 
+        $service = Service::where('ma_loai_dv', $putPitchDetail->ma_loai_dv)->first();
+        $tongDonVi = $service->don_vi + (int) $putPitchDetail->so_luong_dv;
+        $service->update(['don_vi' => $tongDonVi]);
+
         if($putPitchDetail->delete() && $putPitch->delete())
         {
             return redirect()->route('frontend.checkout.showHistory')->with('success',('Xóa lịch sử đặt sân thành công!'));
-        }else{
-            return redirect()->route('frontend.checkout.showHistory')->withErrors('Xóa lịch sử đặt sân thất bại!');
         }
+        return redirect()->route('frontend.checkout.showHistory')->withErrors('Xóa lịch sử đặt sân thất bại!');
+        
     }
     public function deleteSession()
     {
