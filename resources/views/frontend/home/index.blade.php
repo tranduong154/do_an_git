@@ -86,7 +86,7 @@
           </div>
         </div> --}}
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" >
             <div class="card-box-c foo">
               <div class="card-header-c d-flex">
                 <div class="card-box-ico">
@@ -97,7 +97,7 @@
                 </div>
               </div>
               <div class="card-body-c">
-                <p class="content-c">
+                <p class="content-c" style="font-size: 19px ;font-family:'Times New Roman', Times, serif">
                 Ở đây chúng tôi có 6 sân 5 và 2 sân 7 hoạt động tất cả các ngày trong tuần
                 </p>
               </div>
@@ -114,7 +114,7 @@
                 </div>
               </div>
               <div class="card-body-c">
-                <p class="content-c">
+                <p class="content-c"style="font-size: 19px ;font-family:'Times New Roman', Times, serif"">
                   Các loại bóng gồm có loại số 4 và số 5 phù hợp vói từng loại sân để các cầu thủ có cảm giác bóng tốt hơn.
                 </p>
               </div>
@@ -131,7 +131,7 @@
                 </div>
               </div>
               <div class="card-body-c">
-                <p class="content-c">
+                <p class="content-c" style="font-size: 19px ;font-family:'Times New Roman', Times, serif"">
                   Ở đây có nhiều loại nước uống giúp cho các cầu thủ có thể lựa chọn theo sở thích của mình.
                 </p>
               </div>
@@ -414,7 +414,7 @@
                       <i class="bi bi-chat-quote-fill"></i>
                     </div>
                     <div class="testimonials-content">
-                      <p class="testimonial-text">
+                      <p class="testimonial-text" style=" font-style: italic; font-family: Comic Sans MS; font-size: 19px">
                         Giải đấu tranh cúp Đa Phước lần thứ 1 năm 2024 tại sân bóng đá Duy Tân - Đà Nẵng.
                       </p>
                     </div>
@@ -440,7 +440,7 @@
                       <i class="bi bi-chat-quote-fill"></i>
                     </div>
                     <div class="testimonials-content">
-                      <p class="testimonial-text">
+                      <p class="testimonial-text" style=" font-style: italic; font-family: Comic Sans MS; font-size: 19px">
                         Giải đấu tranh cúp Duy Tân lần thứ 2 năm 2021 tại sân bóng đá Duy Tân - Đà Nẵng.
                       </p>
                     </div>

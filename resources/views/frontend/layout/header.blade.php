@@ -12,26 +12,26 @@
       <ul class="navbar-nav">
 
         <li class="nav-item">
-          <a class="nav-link active" href="{{ route('frontend.index') }}">Trang chủ</a>
+          <a style="font-family:'Times New Roman', Times, serif ; font-size:22px" class="nav-link" href="{{ route('frontend.index') }}">Trang chủ</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="{{ route('frontend.about') }}">Giới thiệu</a>
+          <a  style="font-family:'Times New Roman', Times, serif ; font-size:22px" class="nav-link " href="{{ route('frontend.about') }}">Giới thiệu</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="{{ route('frontend.order') }}">Đặt sân</a>
+          <a  style="font-family:'Times New Roman', Times, serif ; font-size:22px" class="nav-link " href="{{ route('frontend.order') }}">Đặt sân</a>
         </li>
       
         <li class="nav-item">
-          <a class="nav-link " href="{{ route('frontend.contact') }}">Liên hệ</a>
+          <a  style="font-family:'Times New Roman', Times, serif ; font-size:22px" class="nav-link " href="{{ route('frontend.contact') }}">Liên hệ</a>
         </li>
 
         <li class="nav-item">
           @if(!auth()->check())
-          <a class="nav-link " href="{{ route('frontend.account.login') }}">Đăng nhập</a>
+          <a style="font-family:'Times New Roman', Times, serif ; font-size:22px" class="nav-link " href="{{ route('frontend.account.login') }}">Đăng nhập</a>
           @else
-          <a class="nav-link " href="{{ route('frontend.account.logout') }}">Đăng xuất</a>
+          <a  style="font-family:'Times New Roman', Times, serif ; font-size:22px" class="nav-link " href="{{ route('frontend.account.logout') }}">Đăng xuất</a>
           @endif
         </li>
 
@@ -39,7 +39,7 @@
     </div>
     <div>
       @if(auth()->check())
-      <span>Xin chào: </span> <a style="margin-top: -15px;font-size: 14px; text-align:center" class="nav-link " href="">{{ Auth::User()->ten }}</a>
+      <span>Xin chào: </span> <a  style="margin-top: -15px; text-align:center ;font-family:'Times New Roman', Times, serif ; font-size:16px" class="nav-link " href="">{{ Auth::User()->ten }}</a>
       @endif
     </div>
 

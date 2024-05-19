@@ -6,7 +6,7 @@
             <th scope="col">SDT người đặt</th>
             <th scope="col">Ngày đặt</th>
             <th scope="col">Tên sân</th>
-            <th scope="col">Khung giờ</th>
+            <th scope="col">Khung giờ</th>  
             <th scope="col">Ngày sử dụng</th>
             <th>Số tiền thanh toán</th>
             <th scope="col">Trạng thái</th>
